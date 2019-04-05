@@ -65,8 +65,8 @@
           <extensions>true</extensions>
           <configuration>
             <cloudHubDeployment>
-              <username>${anypoint.user}</username>
-              <password>${anypoint.password}</password>
+              <username>ibmcloudsaif</username>
+              <password>Ss235016989</password>
               <businessGroup>abc</businessGroup>
               <environment>Sandbox</environment>
               <applicationName>sampleprj</applicationName>

@@ -5,7 +5,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="72553d7d-efc0-4f6b-8de7-b60282e291f2" >
-		<http:listener-connection host="localhost" port="8081" />
+		<http:listener-connection host="localhost" port="${http.port}" />
 	</http:listener-config>
 	<flow name="sampleprjFlow" doc:id="f4d7ab97-277a-4ece-a041-b7d93fff2c40" >
 		<http:listener doc:name="Listener" doc:id="3ffbf426-f7a8-4b1a-b96e-e49ffd922554" config-ref="HTTP_Listener_config" path="/automatetest"/>
