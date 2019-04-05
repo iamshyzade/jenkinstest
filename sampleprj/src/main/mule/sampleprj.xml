@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="sampleprjFlow" doc:id="f4d7ab97-277a-4ece-a041-b7d93fff2c40" >
 		<http:listener doc:name="Listener" doc:id="3ffbf426-f7a8-4b1a-b96e-e49ffd922554" config-ref="HTTP_Listener_config" path="/automatetest"/>
-		<set-payload value="test for automation is success" doc:name="Set Payload" doc:id="a1262d8d-0e1f-4153-8b78-c418f06e6248" />
+		<set-payload value="test for automation is success!!!" doc:name="Set Payload" doc:id="a1262d8d-0e1f-4153-8b78-c418f06e6248" />
 	</flow>
 </mule>
